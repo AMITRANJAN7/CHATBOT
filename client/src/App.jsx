@@ -47,7 +47,7 @@ function App() {
         };
         
         // const response = await fetch('http://localhost:5000/gemini',options)
-         const response = await fetch('http://localhost:5000/gemini',options)
+         const response = await fetch('https://chatbot-xkuj.onrender.com/gemini',options)
          const data = await response.text()
          console.log(data)
 
