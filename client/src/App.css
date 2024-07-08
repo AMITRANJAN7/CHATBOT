@@ -1,0 +1,133 @@
+
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+    background-color: rgb(228, 230, 233);
+    color: rgb(69, 67, 67);
+    display: flex;
+    justify-content: center;
+    background-image: url(https://images.pexels.com/photos/17483868/pexels-photo-17483868/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-represents-how-machine-learning-is-inspired-by-neuroscience-and-the-human-brain-it-was-created-by-novoto-studio-as-par.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    opacity:0.9;
+}
+
+p{
+    font-weight: 200;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+  
+.app {
+    width: 80vw;
+    height: 80vh;
+    margin:10px ;
+    padding: 20px;
+  
+}
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+  }
+  
+  .defaultQues {
+    background-color: #264d76;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+
+  }
+  
+  .container-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .container-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #fbfafa;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .container-input button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    
+  }
+
+  .container-input button:hover {
+    background-color: #45a049;
+  }
+  
+  .search-result {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .answer {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .answer.user {
+    background-color: #c8e6c9;
+    text-align: right;
+  }
+  
+  .answer.bot {
+    background-color: #e5f5e5;
+    text-align: left;
+  }
+  
+  .model-response {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .model-response p {
+    margin: 5px 0;
+  }
+  
+  .model-response ul {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .model-response li {
+    margin-bottom: 5px;
+  }
+  .answer.user {
+    align-self: flex-start;
+    background-color: #c8e6c9;
+  }
+  
+  .answer.model {
+    align-self: flex-end;
+    background-color: #fff9c4;
+  }
+  
+ 
+  
